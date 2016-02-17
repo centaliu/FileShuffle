@@ -58,6 +58,7 @@ namespace FileShuffle
 			MessageBox.Show("Files Shuffled Completely!!");
 		}
 
+		// swap positions of two items in the array
 		private void swapPos(int v1, int v2)
 		{
 			int tmp = nums[v1];

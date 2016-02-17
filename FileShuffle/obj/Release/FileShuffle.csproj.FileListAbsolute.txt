@@ -6,3 +6,4 @@ D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.Properties.Resources
 D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.csproj.GenerateResource.Cache
 D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.exe
 D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.pdb
+D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.csprojResolveAssemblyReference.cache

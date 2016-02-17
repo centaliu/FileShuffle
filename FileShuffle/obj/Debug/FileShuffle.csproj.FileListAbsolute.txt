@@ -1,0 +1,8 @@
+D:\Projects\FileShuffle\FileShuffle\bin\Debug\FileShuffle.exe.config
+D:\Projects\FileShuffle\FileShuffle\obj\Debug\FileShuffle.frmMain.resources
+D:\Projects\FileShuffle\FileShuffle\obj\Debug\FileShuffle.Properties.Resources.resources
+D:\Projects\FileShuffle\FileShuffle\obj\Debug\FileShuffle.csproj.GenerateResource.Cache
+D:\Projects\FileShuffle\FileShuffle\bin\Debug\FileShuffle.exe
+D:\Projects\FileShuffle\FileShuffle\bin\Debug\FileShuffle.pdb
+D:\Projects\FileShuffle\FileShuffle\obj\Debug\FileShuffle.exe
+D:\Projects\FileShuffle\FileShuffle\obj\Debug\FileShuffle.pdb

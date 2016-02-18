@@ -1,9 +1,0 @@
-D:\Projects\FileShuffle\FileShuffle\bin\Release\FileShuffle.exe.config
-D:\Projects\FileShuffle\FileShuffle\bin\Release\FileShuffle.exe
-D:\Projects\FileShuffle\FileShuffle\bin\Release\FileShuffle.pdb
-D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.frmMain.resources
-D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.Properties.Resources.resources
-D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.csproj.GenerateResource.Cache
-D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.exe
-D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.pdb
-D:\Projects\FileShuffle\FileShuffle\obj\Release\FileShuffle.csprojResolveAssemblyReference.cache

@@ -22,6 +22,7 @@ namespace FileShuffle
 		private List<int> nums = new List<int>();
 		private List<string> mp3Files = new List<string>();
 
+		// user hit the button to select the directory which includes the files
 		private void btnSelDir_Click(object sender, EventArgs e)
 		{
 			folderSel.ShowNewFolderButton = false;

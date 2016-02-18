@@ -1,3 +1,3 @@
 FileShuffle.v12.suo
-FileShuffle/obj/
-FileShuffle/bin/
+FileShuffle\obj\*
+FileShuffle\bin\*

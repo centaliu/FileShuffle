@@ -67,6 +67,7 @@ namespace FileShuffle
 			nums[v2] = tmp;
 		}
 
+		// this is a function to make a 3-digit string of a number which is less than 1000\
 		private string paddingTo3(int income)
 		{
 			if (income < 10) return "00" + income.ToString();

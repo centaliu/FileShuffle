@@ -17,7 +17,7 @@ namespace FileShuffle
 		{
 			InitializeComponent();
 		}
-		private int exchTimes = 100;
+		private int exchTimes = 200;
 
 		private List<int> nums = new List<int>();
 		private List<string> mp3Files = new List<string>();
@@ -33,7 +33,7 @@ namespace FileShuffle
 
 		private void frmMain_Load(object sender, EventArgs e)
 		{
-
+			lblCount.Text = "Exchange Count: " + exchTimes.ToString();
 		}
 
 		private void btnShuffle_Click(object sender, EventArgs e)
@@ -51,11 +51,13 @@ namespace FileShuffle
 			}
 			// step 3: randomely swap two numbers in the list nums
 			Random rnd = new Random();
-			for (int i = 0; i < exchTimes; i++) swapPos(rnd.Next(nums.Count), rnd.Next(nums.Count));
+			for (int i = 0; i < exchTimes; i++) {
+				swapPos(rnd.Next(nums.Count), rnd.Next(nums.Count));
+			}
 			// step 4: rename all files in the folder with an additional '_', for ex: .mp3 to mp3_
 			for (int i = 0; i < nums.Count; i++) File.Move(mp3Files[i], mp3Files[i] + "_");
 			// step 5: rename all files back to mp3 base on the the values in nums list
-			for (int i = 0; i < nums.Count; i++) File.Move(mp3Files[i] + "_", txtPath.Text + paddingTo3(nums[i]) + ".mp3");
+			for (int i = 0; i < nums.Count; i++) File.Move(mp3Files[i] + "_", txtPath.Text + txtPrefix.Text.Trim() + paddingTo3(nums[i]) + ".mp3");
 			MessageBox.Show("Files Shuffled Completely!!");
 		}
 
